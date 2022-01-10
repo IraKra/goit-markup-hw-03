@@ -169,6 +169,7 @@ img {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
+  border: none;
 }
 .btn-first {
   background: var(--brand-color);
@@ -274,28 +275,18 @@ img {
 }
 /*--------Portfolio------------*/
 
-/*background: #ffffff;
-border: 1px solid #eeeeee;*/
-
 .portfolio-titles {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-color-text);
-  margin-top: 20px;
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.87;
   color: var(--grey-color-text);
-  margin-top: 0;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
 }
 .portfolio-case {
   display: flex;
@@ -307,6 +298,13 @@ border: 1px solid #eeeeee;*/
   margin-bottom: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 3 - 30px);
+}
+.portfolio-border {
+  background: #ffffff;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 24px 20px 24px;
 }
 /*--------footer------------*/
 .footer {
